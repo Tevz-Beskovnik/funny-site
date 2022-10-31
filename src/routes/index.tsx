@@ -1,7 +1,7 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 import Card from '~/components/Card/Card';
-import styles from './index.css?inline';
+import styles from './index.css';
 
 export default component$(() => {
 	useStylesScoped$(styles);
