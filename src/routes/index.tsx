@@ -6,7 +6,7 @@ import styles from './index.css?inline';
 export default component$(() => {
 	useStylesScoped$(styles);
 
-  	return (
+	return (
 		<div class="container">
 			<Card>
 				<div q:slot="front" class="title-container">
@@ -17,9 +17,9 @@ export default component$(() => {
 				</div>
 			</Card>
 		</div>
-  	);
+	);
 });
 
 export const head: DocumentHead = {
-  	title: 'Funny site',
+	title: 'Funny site',
 };
