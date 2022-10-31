@@ -18,6 +18,11 @@ export default component$(() => {
       <head>
         <meta charSet="utf-8" />
         <link rel="manifest" href="/manifest.json" />
+        <meta name="description" content="A funny website"/>
+        <meta name="keywords" content="funny, troll, joking, joke, laughing, smiling"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="application-name" content="Funny website"/>
+        </meta>
         <RouterHead />
       </head>
       <body lang="en">

@@ -2,6 +2,7 @@ import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 import Card from '~/components/Card/Card';
 import styles from './index.css?inline';
+import { MiddleFinger } from '~/components/icons/middle';
 
 export default component$(() => {
 	useStylesScoped$(styles);
@@ -13,7 +14,7 @@ export default component$(() => {
 					<h1 >FUCK YOU</h1>
 				</div>
 				<div q:slot="back" class="image-container">
-					<img  class="card-image" src="./middle-finger.png" alt="middle finger"/>
+					<MiddleFinger/>
 				</div>
 			</Card>
 		</div>
