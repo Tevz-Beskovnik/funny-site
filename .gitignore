@@ -89,3 +89,6 @@ typings/
 
 # build files
 dist
+
+# Cloudflare
+functions/**/*.js
